@@ -1,4 +1,4 @@
-funcc main() {
+func main() {
   http.HandlerFunc("/", func(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintln(w, "Hello, 세계!")
   })
